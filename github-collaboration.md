@@ -55,7 +55,7 @@ Clone은 원격 저장소를 **내 컴퓨터로 복사**하는 것이다.
 
 ## 4. Branch 기반 협업 구조
 
-![Git Branch Workflow](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_branching_diagram.svg/800px-Git_branching_diagram.svg.png)
+![Git Branch Workflow](https://softwareplanetgroup.co.uk/wp-content/uploads/2020/11/Git-flow-03.png)
 
 GitHub 협업에서는 **main 브랜치**를 기준으로 작업한다.
 
@@ -63,3 +63,52 @@ GitHub 협업에서는 **main 브랜치**를 기준으로 작업한다.
 - `feature branch` → 기능 개발  
 
 → 모든 작업은 **branch에서 수행 후 merge**  
+
+---
+
+## 5. 협업 흐름 (Workflow)
+
+![Git Workflow](https://git-scm.com/book/en/v2/images/basic-branching-3.png)
+
+일반적인 협업 흐름은 다음과 같다.
+
+1. Repository **clone**  
+2. 새로운 **branch 생성**  
+3. 작업 후 **commit**  
+4. 원격 저장소에 **push**  
+5. **Pull Request 생성**  
+6. 리뷰 후 **merge**  
+
+→ GitHub 협업의 **표준 프로세스**  
+
+---
+
+## 6. Issue (작업 관리)
+
+Issue는 프로젝트의 모든 작업을 관리하는 도구이다.
+
+- 할 일을 **티켓 형태**로 생성  
+- 담당자 지정 (`Assignee`)  
+- 진행 상태 추적  
+
+→ 작업 흐름  
+```
+Issue 생성 → 개발 → PR → 완료
+```
+
+PR과 연결하여 **작업 이력을 명확하게 관리**할 수도 있다.  
+
+---
+
+## 7. Pull Request (PR)
+
+Pull Request는 작업한 내용을 `main` 브랜치에 반영 요청하는 과정이다.
+
+### 주요 기능
+
+- 코드 리뷰  
+- 변경 사항 공유  
+- 협업 커뮤니케이션  
+
+→ 협업의 **핵심 단계**  
+
