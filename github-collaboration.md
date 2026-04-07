@@ -70,6 +70,9 @@ GitHub 협업에서는 **main 브랜치**를 기준으로 작업한다.
 
 ![Git Workflow](https://velog.velcdn.com/images/msung99/post/45d626b9-af69-4c58-bf31-ed365d0f8a57/image.png)
 
+→ 위 그림은 GitHub 협업의 전체 흐름을 시각적으로 나타낸 것이다.
+→ 각 단계는 순차적으로 진행되며, Pull Request를 통해 협업이 이루어진다.
+
 일반적인 협업 흐름은 다음과 같다.
 
 1. Repository **clone**  
