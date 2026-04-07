@@ -22,6 +22,22 @@ Git은 프로젝트를 하나의 연속된 파일이 아닌,
 이러한 구조는 현재 상태뿐만 아니라  
 과거의 상태까지 함께 관리한다는 특징을 가진다.
 
+### 2.1 Working Directory
+
+**Working Directory**는 현재 작업 중인 깃 프로젝트 파일들이 있는 자신의 로컬 PC의 디렉토리입니다. 평소 작업하듯 프로젝트를 작업할 수 있습니다.
+
+### 2.2 Staging Area
+
+`git add` 명령어를 사용하여 **Working directory**에서 변경된 파일 중 `commit`할 파일을 선택하여 올리는 공간이며, `commit`전에 대기하는 공간이다.
+
+### 2.3 Local Repository
+
+`git commit` 명령어를 사용해 **Staging Area**에 있는 변경사항을 `commit`으로 기록하여 **Local Repository**에 저장한다. 이 저장소는 `commit`들의 히스토리를 관리한다.
+
+### 2.4 Remote Repository
+
+원격 서버에 위치한 저장소로, 다른 사용자와 협업하거나 백업을 위해 사용되며 `push/pull`을 통해 로컬 저장소와 동기화된다. 대표 예시로는 GitHub, GitLab 등이 있다.
+
 ---
 
 ## 3. Git 주요 명령어
