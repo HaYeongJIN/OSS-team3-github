@@ -68,7 +68,7 @@ GitHub 협업에서는 **main 브랜치**를 기준으로 작업한다.
 
 ## 5. 협업 흐름 (Workflow)
 
-![Git Workflow](https://git-scm.com/book/en/v2/images/basic-branching-3.png)
+![Git Workflow](https://velog.velcdn.com/images/msung99/post/45d626b9-af69-4c58-bf31-ed365d0f8a57/image.png)
 
 일반적인 협업 흐름은 다음과 같다.
 
